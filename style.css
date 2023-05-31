@@ -1,0 +1,233 @@
+body {
+    background-color: #222;
+    color: #fff;
+    overflow: hidden;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .Title {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .Container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  
+  .Container h1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .Container img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 4px;
+  }
+  
+  .Container button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #ff3366;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  input[type="range"] {
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  .progress-bar {
+    width: 100%;
+    height: 10px;
+    background-color: #333;
+    position: relative;
+    margin-top: 10px;
+  }
+  
+  .progress-bar__fill {
+    width: 0%;
+    height: 100%;
+    background-color: #ff3366;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  #currentTime {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  
+  #currentTime span,
+  #duration {
+    font-size: 14px;
+    margin: 0 5px;
+  }
+  
+  #duration {
+    margin-top: 10px;
+  }
+  
+  .InDaClubContainer,
+  .HitEmUpContainer,
+  .BigPoppaContainer,
+  .WriteThisDownContainer {
+    background-color: #333;
+    border-radius: 4px;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .InDaClubText,
+  .HitEmUpText,
+  .WriteThisDownText,
+  .BigPoppaText {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #fff;
+  }
+  
+  .InDaClubContainer img,
+  .HitEmUpContainer img,
+  .BigPoppaContainer img,
+  .WriteThisDownContainer img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 4px;
+  }
+
+  #pauseButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #ff3366;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  #downloadButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #ff3366;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  #skipButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #ff3366;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  #previousButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #ff3366;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }  
+  
+  .InDaClubContainer button,
+  .HitEmUpContainer button,
+  .BigPoppaContainer button,
+  .WriteThisDownContainer button,
+  #pauseButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #ff3366;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .mainContainer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+    z-index: 9999;
+  }
+
+  .containers {
+    overflow-y: auto;
+    max-height: 680px;
+  }
+
+  .containers::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  .containers::-webkit-scrollbar-thumb {
+    background-color: #ccc; 
+    border-radius: 4px;
+  }
+  
+  .containers::-webkit-scrollbar-thumb:hover {
+    background-color: #999;
+  }
+  
+  .containers::-webkit-scrollbar-track {
+    background-color: #fff;
+  }
+  
+  .containers {
+    scrollbar-width: thin;
+    scrollbar-color: #ccc #fff;
+  }
+  
+  .containers::-webkit-scrollbar {
+    width: 8px;
+    background-color: #fff; 
+  }
+  
+  .containers::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+    border-radius: 4px;
+  }
+  
+  .containers::-webkit-scrollbar-thumb:hover {
+    background-color: #999; 
+  }
