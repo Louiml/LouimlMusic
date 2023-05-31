@@ -40,7 +40,7 @@ window.addEventListener('DOMContentLoaded', () => {
       logo: 'bigpoppa',
     },
     {
-      filename: 'Write This Down.mp3',
+      filename: 'https://github.com/Louiml/LouimlMusic/releases/download/Download/Write.This.Down.mp3',
       details: 'Listening to Write This Down',
       state: 'By Thug Theory',
       logo: 'writethisdown',
