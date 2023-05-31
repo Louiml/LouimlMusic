@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Louiml Music</title>
+</head>
+
+<body>
+  <h1 class="Title">Louiml Music</h1>
+    <div class="containers">
+        <div class="InDaClubContainer">
+            <h1 class="InDaClubText">In Da Club</h1>
+            <h5 class="InDaClubText2">By 50 Cent</h5>
+            <img src="./InDaClub.jpg" alt="Image">
+            <button id="playInDaClubButton">Play</button>
+        </div>
+        <div class="HitEmUpContainer">
+            <h1 class="HitEmUpText">Hit 'Em Up</h1>
+            <h5 class="HitEmUpText2">By 2Pac</h5>
+            <img src="./HitEmUp.jpg" alt="Image">
+            <button id="playHitEmUpButton">Play</button>
+        </div>
+        <div class="BigPoppaContainer">
+            <h1 class="BigPoppaText">Big Poppa</h1>
+            <h5 class="BigPoppaText2">By The Notorious B.I.G.</h5>
+            <img src="./BigPoppa.jpg" alt="Image">
+            <button id="playBigPoppaButton">Play</button>
+        </div>
+        <div class="WriteThisDownContainer">
+            <h1 class="WriteThisDownText">Write This Down</h1>
+            <h5 class="WriteThisDownText2">By Thug Theory</h5>
+            <img src="./WriteThisDown.jpg" alt="Image">
+            <button id="playWriteThisDownButton">Play</button>
+        </div>
+    </div>
+  <div class="mainContainer">
+    <div class="button-container">
+        <button id="previousButton">Previous</button>
+        <button id="skipButton">Skip</button>
+    </div>
+    <button id="pauseButton">Pause</button>
+    <button id="downloadButton">Download</button>
+    <input id="volumeSlider" type="range" min="0" max="1" step="0.1" value="1">
+    <span id="currentTime"></span>
+    <span>/</span>
+    <span id="duration"></span>
+    <div class="progress-bar">
+        <div class="progress-bar__fill"></div>
+    </div>
+  </div>
+
+  <audio id="audioPlayer"></audio>
+
+  <script src="preload.js"></script>
+</body>
+
+</html>
